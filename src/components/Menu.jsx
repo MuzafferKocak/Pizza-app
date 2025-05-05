@@ -3,7 +3,7 @@ import { pizzaData } from "../helpers/data";
 import Pizza from "./Pizza";
 
 const Menu = () => {
-    console.log(pizzaData);
+//   console.log(pizzaData);
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       {pizzaData.map((pizza) => (
@@ -13,6 +13,7 @@ const Menu = () => {
           price={pizza.price}
           ingredients={pizza.ingredients}
           photoName={pizza.photoName}
+          soldOut={pizza.soldOut}
         />
       ))}
     </div>

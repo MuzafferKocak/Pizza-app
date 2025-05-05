@@ -1,15 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const Pizza = ({name, price, ingredients, photoName, soldOut}) => {
+const Pizza = ({ name, price, ingredients, photoName, soldOut }) => {
   return (
-    <div className="p-4 border rounded shadow">
-    <img src={`/${photoName}`} alt={name} className='w-full h-48 object-cover rounded'/>
-      <h2 className='text-xl font-bold mt-2'>{name}</h2>
-      <p className="text-gray-600">{ingredients}</p>
+    <div className="p-4 border rounded shadow bg-[#203a43] ">
+      <img
+        src={`/${photoName}`}
+        alt={name}
+        className="w-full h-48 object-fill rounded"
+      />
+      <h2 className="text-xl font-bold mt-2">{name}</h2>
+      <p className="text-gray-400">{ingredients}</p>
       <span className="block mt-1 font-semibold">{price} €</span>
       {soldOut && <span className="text-red-500 font-bold">Sold Out</span>}
     </div>
-  )
-}
+  );
+};
 
-export default Pizza
+export default Pizza;
