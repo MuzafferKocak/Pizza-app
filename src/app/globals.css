@@ -18,6 +18,9 @@
     --foreground: #e2dede;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--background), #3c7282;

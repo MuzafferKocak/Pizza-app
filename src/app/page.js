@@ -4,10 +4,13 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <>
       <Header />
+
+    <div className="min-h-screen pt-24 sm:pt-26 p-8 pb-20 gap-16 sm:p-20">
       <Menu />
-      <Footer />
     </div>
+      <Footer />
+    </>
   );
 }
