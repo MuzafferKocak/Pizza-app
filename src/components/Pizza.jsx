@@ -2,7 +2,9 @@ import React from "react";
 
 const Pizza = ({ name, price, ingredients, photoName, soldOut }) => {
   return (
+    
     <div className="p-4 border rounded shadow bg-[#203a43] ">
+    
       <img
         src={`/${photoName}`}
         alt={name}
