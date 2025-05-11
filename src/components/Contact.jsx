@@ -7,16 +7,12 @@ import {
 
 const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="pt-32 sm:pt-24 px-6"
-    >
+    <section id="contact" className="pt-32 sm:pt-24 px-6">
       <h2 className="text-4xl font-bold text-center text-red-700 mb-4 italic">
         Kontaktieren Sie uns
       </h2>
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 bg-white p-6 rounded-xl shadow-md">
-        
         <div className="space-y-6 text-lg text-gray-800">
           <div className="flex items-start gap-3">
             <MapPinIcon className="h-6 w-6 text-red-600" />
@@ -36,7 +32,6 @@ const Contact = () => {
           </div>
         </div>
 
-        
         <form className="space-y-4">
           <div>
             <label htmlFor="name" className="block text-lg font-medium">
