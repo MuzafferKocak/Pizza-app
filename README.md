@@ -1,6 +1,6 @@
 # 🍕 Pizza Time – Restaurant Website
 
-Eine moderne, responsive Restaurant-Webseite für eine Pizzeria, erstellt mit **Next.js**, **Tailwind CSS**, **Swiper.js** und **React Hero Icons**.
+Eine moderne, responsive Restaurant-Webseite für eine Pizzeria, erstellt mit **Next.js**, **Tailwind CSS**, **Swiper.js** und **Hero Icons**.
 
 ## 🚀 Technologien
 
@@ -16,27 +16,34 @@ Eine moderne, responsive Restaurant-Webseite für eine Pizzeria, erstellt mit **
 - Slider mit Pizzabildern und Ladenimpressionen (Autoplay + Coverflow-Effekt)
 - Kontaktformular mit Name, E-Mail und Nachricht
 - Kontaktinformationen mit Icons (Adresse, Öffnungszeiten etc.)
-- Responsives Design für mobile, Tablet und Desktop
+- Responsives Design für Mobile, Tablet und Desktop
 
 ## 📁 Projektstruktur
 
 ```bash
 /pages
 /components
-  - Header.jsx
-  - Footer.jsx
-  - Home.jsx
-  - Pizza.jsx
-  - Menu.jsx
-  - Contact.jsx
-  - ImageSlider.jsx
+  ├── Header.jsx
+  ├── Footer.jsx
+  ├── Home.jsx
+  ├── Pizza.jsx
+  ├── Menu.jsx
+  ├── Contact.jsx
+  └── ImageSlider.jsx
 /public
-  - image/ (Pizzabilder & Ladenfotos)
-  - pizzas/ (Pizzabilder)
+  ├── image/         # Pizzabilder & Ladenfotos
+  └── pizzas/        # Einzelne Pizza-Fotos
 /helpers
-  - data.js (Pizza-Daten)
+  └── data.js        # Pizza-Daten
+```
 
-  ## 📦 Installation
+## 📦 Installation
 
-  npm install
-  npm run dev
+```bash
+npm install
+npm run dev
+```
+
+---
+
+Viel Spaß mit 🍕 Pizza Time!
